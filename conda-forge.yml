@@ -27,8 +27,9 @@ workflow_settings:
 provider:
   linux_aarch64: default
   osx_arm64: default
-build_platform:
-  linux_ppc64le: linux_64
+# Cannot solve the request because of: python 3.14.* *_cp314 cannot be installed because there are no viable options
+#build_platform:
+#  linux_ppc64le: linux_64
 test: native_and_emulated
 bot:
   automerge: true
