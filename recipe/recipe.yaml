@@ -2,7 +2,7 @@
 schema_version: 1
 
 context:
-  version: "0.9.0"
+  version: "0.9.1"
 
 package:
   name: ironcalc
@@ -10,7 +10,7 @@ package:
 
 source:
   - url: https://pypi.org/packages/source/i/ironcalc/ironcalc-${{ version }}.tar.gz
-    sha256: 660920c36a03587582e05dad64a065e9c1a4b9467b2c9cbd7b9d8a3d3558040f
+    sha256: 1f6b641b9fb2cf262000c3e078338709c42ff6264f809605ade18ec27d891f94
 
 build:
   number: 0
